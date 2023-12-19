@@ -1,0 +1,46 @@
+﻿@model WafSistemas.GerenciadorCliente.Service.DTO.Projeto.Projeto
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Projeto</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdProjeto)
+        </dt>
+        <dd class="col-sm-10">
+            @Convert.ToInt32(Model.IdProjeto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @{switch (Convert.ToInt32(Model.Status))
+                {
+                    case 0:
+                        <h4><span> <label class="badge badge-danger"> <i class="bi bi-file-x-fill"></i> [ Bloqueado ] </label> </span></h4>
+                        break;
+                    case 1:
+                        <h4><span> <label class="badge badge-success"><i class="bi bi-check-circle-fill"></i>  [ Liberado ] </label> </span></h4>
+                        break;                   
+                }
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-sm btn-info" data-toggle="tooltip" data-placement="left" title="Alterar" href="@Url.Action("Edit", "Projeto",new { id = Model.IdProjeto })"><span><i class='bi bi-pencil-square'></i> Alterar</span></a>
+    <a asp-action="Index" class="btn btn-sm btn-secondary"><span><i class="bi bi-backspace"></i> Voltar a Lista</span></a>
+</div>

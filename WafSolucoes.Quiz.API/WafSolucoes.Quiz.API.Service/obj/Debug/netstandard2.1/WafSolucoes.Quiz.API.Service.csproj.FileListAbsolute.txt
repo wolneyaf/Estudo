@@ -1,0 +1,15 @@
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.deps.json
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.dll
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.pdb
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Domain.dll
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Infra.dll
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Domain.pdb
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\bin\Debug\netstandard2.1\WafSolucoes.Quiz.API.Infra.pdb
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.csproj.AssemblyReference.cache
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.AssemblyInfoInputs.cache
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.AssemblyInfo.cs
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.csproj.CoreCompileInputs.cache
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.csproj.CopyComplete
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.dll
+C:\Projetos\Git\WafSolucoes.Quiz.API\WafSolucoes.Quiz.API.Service\obj\Debug\netstandard2.1\WafSolucoes.Quiz.API.Service.pdb

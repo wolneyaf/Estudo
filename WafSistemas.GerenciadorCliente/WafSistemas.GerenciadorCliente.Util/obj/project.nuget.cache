@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "dwhaI4Q48GDLPQnx5EILCHdoUUKMt4Xxd6m1zEQWp0q5ztA6rTIFYqqF1MwqFJ//28PtEcT9xr8ApHeVdzjByw==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Git\\WafSistemas.GerenciadorCliente\\WafSistemas.GerenciadorCliente.Util\\WafSistemas.GerenciadorCliente.Util.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gambit\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

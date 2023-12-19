@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WafSistemas.GerenciadorCliente.Domain", "WafSistemas.GerenciadorCliente.Domain\WafSistemas.GerenciadorCliente.Domain.csproj", "{FD9BE9B5-91D5-46F6-91ED-99A932AD4C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WafSistemas.GerenciadorCliente.Infra", "WafSistemas.GerenciadorCliente.Infra\WafSistemas.GerenciadorCliente.Infra.csproj", "{A97AE395-B204-479E-9C68-BC732475DC8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD9BE9B5-91D5-46F6-91ED-99A932AD4C44} = {FD9BE9B5-91D5-46F6-91ED-99A932AD4C44}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WafSistemas.GerenciadorCliente.Service", "WafSistemas.GerenciadorCliente.Service\WafSistemas.GerenciadorCliente.Service.csproj", "{F4305EBB-DE5B-4793-AADB-FCA7C47A5D2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WafSistemas.GerenciadorCliente.Util", "WafSistemas.GerenciadorCliente.Util\WafSistemas.GerenciadorCliente.Util.csproj", "{590FD11B-39CA-48DA-B085-9DC57BF44C4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WafSistemas.GerenciadorCliente.Web", "WafSistemas.GerenciadorCliente.Web\WafSistemas.GerenciadorCliente.Web.csproj", "{5A2F9170-6357-4086-AEFA-F85936654E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WafSistemas.GerenciadorCliente.Security", "WafSistemas.GerenciadorCliente.Security\WafSistemas.GerenciadorCliente.Security.csproj", "{37A5CBDE-121D-48DF-8939-857EB565E392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD9BE9B5-91D5-46F6-91ED-99A932AD4C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9BE9B5-91D5-46F6-91ED-99A932AD4C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9BE9B5-91D5-46F6-91ED-99A932AD4C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9BE9B5-91D5-46F6-91ED-99A932AD4C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97AE395-B204-479E-9C68-BC732475DC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97AE395-B204-479E-9C68-BC732475DC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97AE395-B204-479E-9C68-BC732475DC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97AE395-B204-479E-9C68-BC732475DC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4305EBB-DE5B-4793-AADB-FCA7C47A5D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4305EBB-DE5B-4793-AADB-FCA7C47A5D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4305EBB-DE5B-4793-AADB-FCA7C47A5D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4305EBB-DE5B-4793-AADB-FCA7C47A5D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590FD11B-39CA-48DA-B085-9DC57BF44C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590FD11B-39CA-48DA-B085-9DC57BF44C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590FD11B-39CA-48DA-B085-9DC57BF44C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590FD11B-39CA-48DA-B085-9DC57BF44C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2F9170-6357-4086-AEFA-F85936654E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2F9170-6357-4086-AEFA-F85936654E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2F9170-6357-4086-AEFA-F85936654E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2F9170-6357-4086-AEFA-F85936654E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A5CBDE-121D-48DF-8939-857EB565E392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A5CBDE-121D-48DF-8939-857EB565E392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A5CBDE-121D-48DF-8939-857EB565E392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A5CBDE-121D-48DF-8939-857EB565E392}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC197984-1448-4BB6-89EA-5D5DB0C0F68A}
+	EndGlobalSection
+EndGlobal

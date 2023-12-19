@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WafSistemas.GerenciadorCliente.Service.DTO.Projeto.Projeto>
+
+@{
+    ViewData["Title"] = "Projeto";
+}
+
+<h1>Projeto</h1>
+<hr />
+<p>
+    <a asp-action="Create"><span><i class="bi bi-plus-square"></i> Incluir</span></a>
+</p>
+<table class="table table-sm table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdProjeto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{if (Model is not null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.IdProjeto.ToString()
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @{ switch (item.Status)
+                                {
+                                    case 0:
+                                        <i class="bi bi-file-x-fill text-danger" data-toggle="tooltip" data-placement="left" title="Bloqueado"></i>
+                                        break;
+                                    case 1:
+                                        <i class="bi bi-check-circle-fill text-success" data-toggle="tooltip" data-placement="left" title="Liberado"></i>
+                                            break;
+                                 }
+                              }
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-info" data-toggle="tooltip" data-placement="left" title="Alterar" href="@Url.Action("Edit", "Projeto", new { id = item.IdProjeto })"><i class='bi bi-pencil-square'></i></a>
+                            <a class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="left" title="Detalhe" href="@Url.Action("Details", "Projeto", new { id = item.IdProjeto })"><i class='bi bi-search'></i></a>
+                            <a class="btn btn-sm btn-danger" data-toggle="tooltip" data-placement="left" title="Apagar" href="@Url.Action("Delete", "Projeto", new { id = item.IdProjeto })"><i class='bi bi-x-circle'></i></a>
+                        </td>
+                    </tr>
+                    }
+                }
+            }
+    </tbody>
+</table>

@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Web\\WafSolucoes.Quiz.API.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj",
+        "projectName": "WafSolucoes.Quiz.API.Domain",
+        "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gambit\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gambit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Infra\\WafSolucoes.Quiz.API.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Infra\\WafSolucoes.Quiz.API.Infra.csproj",
+        "projectName": "WafSolucoes.Quiz.API.Infra",
+        "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Infra\\WafSolucoes.Quiz.API.Infra.csproj",
+        "packagesPath": "C:\\Users\\Gambit\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gambit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Service\\WafSolucoes.Quiz.API.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Service\\WafSolucoes.Quiz.API.Service.csproj",
+        "projectName": "WafSolucoes.Quiz.API.Service",
+        "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Service\\WafSolucoes.Quiz.API.Service.csproj",
+        "packagesPath": "C:\\Users\\Gambit\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gambit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Domain\\WafSolucoes.Quiz.API.Domain.csproj"
+              },
+              "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Infra\\WafSolucoes.Quiz.API.Infra.csproj": {
+                "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Infra\\WafSolucoes.Quiz.API.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Web\\WafSolucoes.Quiz.API.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Web\\WafSolucoes.Quiz.API.Web.csproj",
+        "projectName": "WafSolucoes.Quiz.API.Web",
+        "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Web\\WafSolucoes.Quiz.API.Web.csproj",
+        "packagesPath": "C:\\Users\\Gambit\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gambit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Service\\WafSolucoes.Quiz.API.Service.csproj": {
+                "projectPath": "C:\\Projetos\\Git\\WafSolucoes.Quiz.API\\WafSolucoes.Quiz.API.Service\\WafSolucoes.Quiz.API.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

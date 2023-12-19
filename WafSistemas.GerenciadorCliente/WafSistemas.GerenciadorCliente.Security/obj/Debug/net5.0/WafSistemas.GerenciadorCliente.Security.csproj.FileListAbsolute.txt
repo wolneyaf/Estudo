@@ -1,0 +1,12 @@
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.deps.json
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\bin\Debug\net5.0\ref\WafSistemas.GerenciadorCliente.Security.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.pdb
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.csproj.AssemblyReference.cache
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.AssemblyInfoInputs.cache
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.AssemblyInfo.cs
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.csproj.CoreCompileInputs.cache
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\ref\WafSistemas.GerenciadorCliente.Security.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Security\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Security.pdb

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WafSolucoes.Quiz.API.Service.DTO.Pesquisa.Pesquisa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Pesquisas</h1>
+
+<p>
+    <a asp-action="Create"><span><i class="bi bi-plus-square"></i> Incluir</span></a>
+</p>
+<table class="table table-sm table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPesquisa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Validade)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+            @foreach (var item in Model)
+            {
+        <tr>
+            <td>
+                @{ switch (item.Validade.Date >= DateTime.Now.Date)
+                    {
+                        case false:
+                            <i class="bi bi-file-x-fill text-danger" data-toggle="tooltip" data-placement="left" title="Bloqueado"></i>
+                            break;
+                        case true:
+                            <i class="bi bi-check-circle-fill text-success" data-toggle="tooltip" data-placement="left" title="Liberado"></i>
+                            break;
+                    }
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPesquisa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Validade)
+            </td>
+            <td>
+                <a class="btn btn-sm btn-info" data-toggle="tooltip" data-placement="left" title="Alterar" href="@Url.Action("Edit", "Cliente",new { idCliente = item.IdCliente, id = item.IdPesquisa })"><i class='bi bi-pencil-square'></i></a>
+                <a class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="left" title="Detalhe" href="@Url.Action("Details", "Cliente",new {  idCliente = item.IdCliente, id = item.IdPesquisa })"><i class='bi bi-search'></i></a>
+                <a class="btn btn-sm btn-danger" data-toggle="tooltip" data-placement="left" title="Apagar" href="@Url.Action("Delete", "Cliente",new {  idCliente = item.IdCliente, id = item.IdPesquisa })"><i class='bi bi-x-circle'></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

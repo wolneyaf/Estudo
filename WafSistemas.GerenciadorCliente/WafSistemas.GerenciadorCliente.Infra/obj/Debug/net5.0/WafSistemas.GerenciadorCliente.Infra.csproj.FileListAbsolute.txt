@@ -1,0 +1,15 @@
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.csproj.AssemblyReference.cache
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.AssemblyInfoInputs.cache
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.AssemblyInfo.cs
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.deps.json
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\bin\Debug\net5.0\ref\WafSistemas.GerenciadorCliente.Infra.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.pdb
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Domain.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\bin\Debug\net5.0\WafSistemas.GerenciadorCliente.Domain.pdb
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.csproj.CopyComplete
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\ref\WafSistemas.GerenciadorCliente.Infra.dll
+C:\Projetos\Git\WafSistemas.GerenciadorCliente\WafSistemas.GerenciadorCliente.Infra\obj\Debug\net5.0\WafSistemas.GerenciadorCliente.Infra.pdb
