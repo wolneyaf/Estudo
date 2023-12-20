@@ -6,8 +6,8 @@ namespace BNP.Teste.Infra.Data
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
-        private readonly BNPContext Context;
-        public BaseRepository(BNPContext context) 
+        private readonly BnpContext Context;
+        public BaseRepository(BnpContext context) 
         {
             Context = context;
         }
@@ -20,7 +20,14 @@ namespace BNP.Teste.Infra.Data
 
         public IEnumerable<T> List()
         {
-            throw new System.NotImplementedException();
+            var list = Context.Set<T>();
+            return list;
+        }
+        
+        public T Find(string codigo)
+        {
+            T item = Context.Find<T>(codigo);
+            return item;
         }
     }
 }

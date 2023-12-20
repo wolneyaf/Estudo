@@ -6,5 +6,6 @@ namespace BNP.Teste.Dominio.Repository
     {
         void Inserir(TEntity entity);
         IEnumerable<TEntity> List();
+        TEntity Find(string codigo);
     }
 }

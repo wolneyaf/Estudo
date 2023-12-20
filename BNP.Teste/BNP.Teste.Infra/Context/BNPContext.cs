@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BNP.Teste.Infra.Context
 {
-    public class BNPContext :DbContext
+    public class BnpContext :DbContext
     {
-        public BNPContext(DbContextOptions<BNPContext> options) : base(options) { }
+        public BnpContext(DbContextOptions<BnpContext> options) : base(options) { }
 
         public DbSet<Produto>Produto { get; set; }
         public DbSet<ProdutoCosif> ProdutoCosif { get; set; }

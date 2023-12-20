@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.Infra", "BNP.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.Service", "BNP.Teste.Service\BNP.Teste.Service.csproj", "{53F063A2-9B60-4D65-BB77-FF94EE9B60E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.UI", "BNP.Teste.UI\BNP.Teste.UI.csproj", "{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{53F063A2-9B60-4D65-BB77-FF94EE9B60E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F063A2-9B60-4D65-BB77-FF94EE9B60E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F063A2-9B60-4D65-BB77-FF94EE9B60E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

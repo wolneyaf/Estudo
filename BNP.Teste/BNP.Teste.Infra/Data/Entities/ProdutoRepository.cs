@@ -6,8 +6,8 @@ namespace BNP.Teste.Infra.Data.Entities
 {
     public class ProdutoRepository : BaseRepository<Produto>, IProdutoRepository
     {
-        public readonly BNPContext Context; 
-        public ProdutoRepository(BNPContext context) : base(context)
+        public readonly BnpContext Context; 
+        public ProdutoRepository(BnpContext context) : base(context)
         {
             Context = context;
         }
