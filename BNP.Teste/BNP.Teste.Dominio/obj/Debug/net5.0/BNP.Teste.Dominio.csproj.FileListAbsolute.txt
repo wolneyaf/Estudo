@@ -1,0 +1,12 @@
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\bin\Debug\net5.0\BNP.Teste.Dominio.deps.json
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\bin\Debug\net5.0\BNP.Teste.Dominio.dll
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\bin\Debug\net5.0\ref\BNP.Teste.Dominio.dll
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\bin\Debug\net5.0\BNP.Teste.Dominio.pdb
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.csproj.AssemblyReference.cache
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.AssemblyInfoInputs.cache
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.AssemblyInfo.cs
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.dll
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\ref\BNP.Teste.Dominio.dll
+C:\Projetos\Estudo\BNP.Teste\BNP.Teste.Dominio\obj\Debug\net5.0\BNP.Teste.Dominio.pdb
