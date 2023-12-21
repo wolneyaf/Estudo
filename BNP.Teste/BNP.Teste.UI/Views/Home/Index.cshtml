@@ -1,0 +1,163 @@
+﻿@model BNP.Teste.Service.DTO.ListarMovimentoResponse
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style type="text/css">
+    .containerform {
+        display: grid;
+        grid-template-columns: 100px 200px 100px 200px;
+        text-align: right;
+        grid-gap: 10px;
+    }
+
+    .boxDes {
+        grid-column: 2/span 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    fieldset {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow: 0px 0px 0px 0px #000;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    legend {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+    }
+
+    .buttonFlex {
+        display: flex;
+        grid-gap: 10px;
+        justify-content: flex-end;
+        grid-column: 2/span 3;
+    }
+</style>
+
+<h1>Movimentos Manuais</h1>
+<form asp-action="Index">
+    <fieldset style="min-width:700px; max-width:700px">
+        <legend> Movimento</legend>
+
+        <div class="containerform">
+            <div><label asp-for="Movimento.Mes" class="control-label"></label></div>
+            <div>
+                <input asp-for="Movimento.Mes" class="form-control form-control-sm" />
+                <span asp-validation-for="Movimento. Mes" class="text-danger"></span>
+            </div>
+
+            <div><label asp-for="Movimento.Ano" class="control-label"></label></div>
+            <div>
+                <input asp-for="Movimento.Ano" class="form-control form-control-sm" />
+                <span asp-validation-for="Movimento.Ano" class="text-danger"></span>
+            </div>
+
+            <div><label asp-for="Movimento.CodProduto" class="control-label"></label></div>
+            <div>
+                <Select id="cbProduto" asp-for="Movimento.CodProduto" class="form-control form-control-sm"></Select>
+                <span asp-validation-for="Movimento.CodProduto" class="text-danger"></span>
+            </div>
+
+            <div><label asp-for="Movimento.CodCosif" class="control-label"></label></div>
+            <div>
+                <select id="cbProdutoCosif" asp-for="Movimento.CodCosif" class="form-control form-control-sm"></select>
+                <span asp-validation-for="Movimento.CodCosif" class="text-danger"></span>
+            </div>
+
+            <div><label asp-for="Movimento.Valor" class="control-label"></label></div>
+            <div>
+                <input asp-for="Movimento.Valor" class="form-control form-control-sm" />
+                <span asp-validation-for="Movimento.Valor" class="text-danger"></span>
+            </div>
+
+            <div></div>
+            <div></div>
+
+            <div><label asp-for="Movimento.Descricao" class="control-label"></label></div>
+            <div class="boxDes">
+                <input asp-for="Movimento.Descricao" class="form-control" />
+                <span asp-validation-for="Movimento.Descricao" class="text-danger"></span>
+            </div>
+
+            <div class="buttonFlex">
+                <div><input type="button" value="Limpar" class="btn btn-info" /></div>
+                <div><input type="button" value="Novo" class="btn btn-secondary" /></div>
+                <div><input type="submit" value="Incluir" class="btn btn-primary" /></div>
+            </div>
+
+        </div>
+    </fieldset>
+</form>
+
+<fieldset>
+    <legend> Lista</legend>
+    <table class="table table-sm table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    Mes
+                </th>
+                <th>
+                    Ano
+                </th>
+                <th>
+                    Cod Produto
+                </th>
+                <th>
+                    Descricao Produto
+                </th>
+                <th>
+                    Num Lancamento
+                </th>
+                <th>
+                    Descricao
+                </th>
+                <th>
+                    Valor
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Movimentos != null)
+            @foreach (var item in Model.Movimentos)
+            {
+                <tr>
+                    <td>
+                        @item.Mes.ToString()
+                    </td>
+                    <td>
+                        @item.Ano.ToString()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoProduto)
+                    </td>
+                    <td>
+                        @item.NumLancamento.ToString()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descricao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Valor)
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</fieldset>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+    <div id="grdlistaMovimento">
+    </div>

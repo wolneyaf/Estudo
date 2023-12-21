@@ -20,6 +20,7 @@ namespace BNP.Teste.Infra.Data
 
         public IEnumerable<T> List()
         {
+
             var list = Context.Set<T>();
             return list;
         }

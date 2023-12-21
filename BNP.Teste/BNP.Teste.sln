@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.Dominio", "BNP.Teste.Dominio\BNP.Teste.Dominio.csproj", "{46FD32E5-405F-4026-AFF1-058936B13AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNP.Teste.Dominio", "BNP.Teste.Dominio\BNP.Teste.Dominio.csproj", "{46FD32E5-405F-4026-AFF1-058936B13AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.Infra", "BNP.Teste.Infra\BNP.Teste.Infra.csproj", "{7FBA5170-CED0-49EB-BDC1-A9F18759AB8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNP.Teste.Infra", "BNP.Teste.Infra\BNP.Teste.Infra.csproj", "{7FBA5170-CED0-49EB-BDC1-A9F18759AB8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.Service", "BNP.Teste.Service\BNP.Teste.Service.csproj", "{53F063A2-9B60-4D65-BB77-FF94EE9B60E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNP.Teste.Service", "BNP.Teste.Service\BNP.Teste.Service.csproj", "{53F063A2-9B60-4D65-BB77-FF94EE9B60E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNP.Teste.UI", "BNP.Teste.UI\BNP.Teste.UI.csproj", "{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNP.Teste.UI", "BNP.Teste.UI\BNP.Teste.UI.csproj", "{CA2B4F4E-0C44-4CC2-86F7-30FE8133036D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

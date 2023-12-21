@@ -11,14 +11,18 @@ namespace BNP.Teste.Infra.Data.Entities
     public class MovimentoRepository : BaseRepository<Movimentacao>, IMovimentoRepository
     {
         public readonly BnpContext Context;
-        public MovimentoRepository(BnpContext contex):base(contex)
+        public MovimentoRepository(BnpContext context):base(context)
         {
-            Context = contex;
+            Context = context;
         }
 
         public IEnumerable<MovimentoProcedure> ListarMovimentoProcedure()
         {
-            IEnumerable<MovimentoProcedure> lista = (IEnumerable<MovimentoProcedure>)Context.MovimentoManual.FromSql($"");
+
+            
+            FormattableString query = $"EXECUTE ListarMovimento";
+            var lista = Context.MovimentoProcedure.FromSql(query);
+
             return lista;
         }
 
