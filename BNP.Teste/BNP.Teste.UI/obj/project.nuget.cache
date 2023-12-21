@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0hj1QJZMauGOTnEz1K5UNZQukcbRJYI6Oz9Dx67CaciZco4hsLp9RiNE9B1DYpMO1qqjO5Rt043+UH7bTS6vfA==",
+  "dgSpecHash": "II5xFJ1bYE9bnKXXw8h+FsWK2a7ZY3IsudwFcEO9Gc55VGLzd1/pU79X1z5MkFFQwwn86uzJixb8E1QCGNwfjw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Estudo\\BNP.Teste\\BNP.Teste.UI\\BNP.Teste.UI.csproj",
   "expectedPackageFiles": [
@@ -154,7 +154,11 @@
     "C:\\Users\\Gambit\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Gambit\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Gambit\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Gambit\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Gambit\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }
