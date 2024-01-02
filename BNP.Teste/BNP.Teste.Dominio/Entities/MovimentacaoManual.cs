@@ -2,10 +2,10 @@
 
 namespace BNP.Teste.Dominio.Entities
 {
-    public class Movimentacao
+    public class MovimentacaoManual
     {
-        public int Mes { get; set; }
-        public int Ano { get; set; }
+        public decimal Mes { get; set; }
+        public decimal Ano { get; set; }
         public long NumLancamento { get; set; }
         public string CodProduto { get; set; }
         public string CodCosif { get; set; }

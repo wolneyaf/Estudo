@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace BNP.Teste.Dominio.Repository.Entities
 {
-    public interface IMovimentoRepository : IBaseRepository<Movimentacao>
+    public interface IMovimentoRepository : IBaseRepository<MovimentacaoManual>
     {
         IEnumerable<MovimentoProcedure> ListarMovimentoProcedure();
-        long GerarLancamento();
+        long GerarLancamento(int mes, int ano);
     }
 }

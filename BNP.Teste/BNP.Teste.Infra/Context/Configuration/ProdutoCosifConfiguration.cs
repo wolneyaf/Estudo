@@ -11,20 +11,20 @@ namespace BNP.Teste.Infra.Context.Configuration
                 .HasKey(k => new { k.CodCosif, k.CodProduto }).HasName("PK_PRODUTO_COSIF");
 
             modelBuilder.Entity<ProdutoCosif>()
-                   .ToTable("ProdutoCosif")
+                   .ToTable("PRODUTO_COSIF")
                    .Property(e => e.CodProduto).HasColumnName("COD_PRODUTO")
                    .IsRequired();
 
             modelBuilder.Entity<ProdutoCosif>()
-                   .ToTable("ProdutoCosif")
+                   .ToTable("PRODUTO_COSIF")
                    .Property(e => e.CodCosif).HasColumnName("COD_COSIF");
 
             modelBuilder.Entity<ProdutoCosif>()
-                   .ToTable("ProdutoCosif")
-                   .Property(e => e.CodClassificacao).HasColumnName("COD_CLASSIFICACA");
+                   .ToTable("PRODUTO_COSIF")
+                   .Property(e => e.CodClassificacao).HasColumnName("COD_CLASSIFICACAO");
 
             modelBuilder.Entity<ProdutoCosif>()
-                   .ToTable("ProdutoCosif")
+                   .ToTable("PRODUTO_COSIF")
                    .Property(e => e.Status).HasColumnName("STA_STATUS");
         }
     }

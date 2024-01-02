@@ -28,7 +28,7 @@ namespace BNP.Teste.Service.Service
                         {
                             CodigoClassificacao = item.CodClassificacao,
                             CodigoCosif = item.CodCosif,
-                            Item = item.CodCosif + "-" + item.CodClassificacao
+                            Item = item.CodCosif.Trim() + "-" + item.CodClassificacao.Trim()
                         });
                     }
                 }

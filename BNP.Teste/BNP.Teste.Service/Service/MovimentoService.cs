@@ -1,4 +1,6 @@
 ﻿
+using AutoMapper;
+using BNP.Teste.Dominio.Entities;
 using BNP.Teste.Dominio.Repository.Entities;
 using BNP.Teste.Service.DTO;
 using BNP.Teste.Service.Interface;
@@ -17,6 +19,31 @@ namespace BNP.Teste.Service.Service
         {
             Servico = servico;
             ServicoProduto = servicoProduto;
+        }
+
+        public string Inserir(MovimentoDto obj)
+        {
+            try
+            {
+                MovimentacaoManual objRepository = new MovimentacaoManual();
+                objRepository.Ano = obj.Ano;
+                objRepository.Mes = obj.Mes;
+                objRepository.CodProduto = obj.CodProduto;
+                objRepository.DataMovimentacao = DateTime.Now;
+                objRepository.Descricao = obj.Descricao;
+                var NumLancamento = Servico.GerarLancamento(obj.Mes, obj.Ano);
+                objRepository.NumLancamento = NumLancamento;
+                objRepository.CodCosif = obj.CodCosif;
+                objRepository.Valor = obj.Valor;
+                objRepository.CodUsuario = "Usuario";
+                Servico.Inserir(objRepository);
+
+                return "";
+            }
+            catch(Exception ex) 
+            {
+                return ex.ToString();
+            }
         }
 
         public ListarMovimentoResponse ListarMovimento()

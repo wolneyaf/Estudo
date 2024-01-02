@@ -7,7 +7,7 @@
 <style type="text/css">
     .containerform {
         display: grid;
-        grid-template-columns: 100px 200px 100px 200px;
+        grid-template-columns: 100px 100px 100px 100px;
         text-align: right;
         grid-gap: 10px;
     }
@@ -38,42 +38,55 @@
         justify-content: flex-end;
         grid-column: 2/span 3;
     }
+
+    .disabledItem {
+        cursor: not-allowed;
+        background-color:gainsboro;
+    }
+    .text-danger-font{
+        font-size:8.8px;
+    }
+
+    .alert{
+        display:none;
+    }
+
 </style>
 
 <h1>Movimentos Manuais</h1>
-<form asp-action="Index">
-    <fieldset style="min-width:700px; max-width:700px">
+<form asp-action="Create">
+    <fieldset style="min-width:500px; max-width:500px">
         <legend> Movimento</legend>
 
         <div class="containerform">
             <div><label asp-for="Movimento.Mes" class="control-label"></label></div>
             <div>
                 <input asp-for="Movimento.Mes" class="form-control form-control-sm" />
-                <span asp-validation-for="Movimento. Mes" class="text-danger"></span>
+                <span asp-validation-for="Movimento.Mes" class="text-danger text-danger-font"></span>
             </div>
 
             <div><label asp-for="Movimento.Ano" class="control-label"></label></div>
             <div>
                 <input asp-for="Movimento.Ano" class="form-control form-control-sm" />
-                <span asp-validation-for="Movimento.Ano" class="text-danger"></span>
+                <span asp-validation-for="Movimento.Ano" class="text-danger text-danger-font"></span>
             </div>
 
             <div><label asp-for="Movimento.CodProduto" class="control-label"></label></div>
             <div>
-                <Select id="cbProduto" asp-for="Movimento.CodProduto" class="form-control form-control-sm"></Select>
-                <span asp-validation-for="Movimento.CodProduto" class="text-danger"></span>
+                <Select id="cbProduto" asp-for="Movimento.CodProduto" asp-items="Model.Produtos.Select(s=> new SelectListItem(){Text =  s.Descricao, Value=s.Codigo })" onchange="CarregarProdutoCosif();" class="form-control form-control-sm"></Select>
+                <span asp-validation-for="Movimento.CodProduto" class="text-danger text-danger-font"></span>
             </div>
 
             <div><label asp-for="Movimento.CodCosif" class="control-label"></label></div>
             <div>
                 <select id="cbProdutoCosif" asp-for="Movimento.CodCosif" class="form-control form-control-sm"></select>
-                <span asp-validation-for="Movimento.CodCosif" class="text-danger"></span>
+                <span asp-validation-for="Movimento.CodCosif" class="text-danger text-danger-font"></span>
             </div>
 
             <div><label asp-for="Movimento.Valor" class="control-label"></label></div>
             <div>
-                <input asp-for="Movimento.Valor" class="form-control form-control-sm" />
-                <span asp-validation-for="Movimento.Valor" class="text-danger"></span>
+                <input asp-for="Movimento.Valor" class="form-control form-control-sm" onkeypress="return filtroTeclas(event)"   />
+                <span asp-validation-for="Movimento.Valor" class="text-danger text-danger-font"></span>
             </div>
 
             <div></div>
@@ -81,14 +94,14 @@
 
             <div><label asp-for="Movimento.Descricao" class="control-label"></label></div>
             <div class="boxDes">
-                <input asp-for="Movimento.Descricao" class="form-control" />
+                <textarea asp-for="Movimento.Descricao" class="form-control form-control-sm" maxlength="50"></textarea>
                 <span asp-validation-for="Movimento.Descricao" class="text-danger"></span>
             </div>
 
             <div class="buttonFlex">
-                <div><input type="button" value="Limpar" class="btn btn-info" /></div>
-                <div><input type="button" value="Novo" class="btn btn-secondary" /></div>
-                <div><input type="submit" value="Incluir" class="btn btn-primary" /></div>
+                <div><input id="btLimpar" type="button" value="Limpar" onclick="LimparCampos()" class="btn btn-info" /></div>
+                <div><input id="btNovo" type="button" value="Novo" onclick="HabilitarDesbilitarButon('False');" class="btn btn-secondary" /></div>
+                <div><input id="btIncluir" type="submit" value="Incluir"  class="btn btn-primary" /></div>
             </div>
 
         </div>

@@ -7,5 +7,6 @@ namespace BNP.Teste.Service.DTO
         public MovimentoDto Movimento { get;set;}
         public List<ProdutoComboDto> Produtos { get; set; }
         public List<ListaMovimentoDto> Movimentos { get; set; }
+        public bool IsNew { get; set; }
     }
 }

@@ -6,5 +6,6 @@ namespace BNP.Teste.Service.Interface
     public interface IMovimentoService
     {
         ListarMovimentoResponse ListarMovimento();
+        string Inserir(MovimentoDto obj);
     }
 }

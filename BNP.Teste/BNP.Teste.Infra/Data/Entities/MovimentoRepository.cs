@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace BNP.Teste.Infra.Data.Entities
 {
-    public class MovimentoRepository : BaseRepository<Movimentacao>, IMovimentoRepository
+    public class MovimentoRepository : BaseRepository<MovimentacaoManual>, IMovimentoRepository
     {
         public readonly BnpContext Context;
         public MovimentoRepository(BnpContext context):base(context)
@@ -26,11 +26,9 @@ namespace BNP.Teste.Infra.Data.Entities
             return lista;
         }
 
-        public long GerarLancamento()
+        public long GerarLancamento(int mes, int ano)
         {
-            int Mes = DateTime.Now.Month;
-            int Ano = DateTime.Now.Year;
-            var list = Context.MovimentoManual.Where(x=> x.Mes == Mes && x.Ano == Ano);
+            var list = Context.MovimentoManual.Where(x=> x.Mes == mes && x.Ano == ano);
             long NrLancamento = list.Count() + 1;
 
             return NrLancamento;
