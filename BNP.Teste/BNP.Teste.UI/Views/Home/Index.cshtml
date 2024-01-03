@@ -85,7 +85,16 @@
 
             <div><label asp-for="Movimento.Valor" class="control-label"></label></div>
             <div>
-                <input asp-for="Movimento.Valor" class="form-control form-control-sm" onkeypress="return filtroTeclas(event)"   />
+                <input type="text" asp-for="Movimento.Valor" class="form-control form-control-sm" id="Valor">
+                <script>
+                    $(document).ready(function () {
+                        $('#Valor').inputmask('decimal', {
+                            rightAlign: true,
+                            'digits': 2,
+                        });
+                    })
+                </script>
+				<!--input id="Movimento.Valor" asp-for="Movimento.Valor" class="form-control form-control-sm" onkeypress="" onkeyup="" /-->
                 <span asp-validation-for="Movimento.Valor" class="text-danger text-danger-font"></span>
             </div>
 
